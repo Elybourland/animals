@@ -1,8 +1,12 @@
 import React from 'react';
 
 const AnimalShow = () => {
+  
+
   return (
-    <div>AnimalShow</div>
+    <div>
+      AnimalShow
+    </div>
   )
 }
 

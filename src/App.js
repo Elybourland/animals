@@ -1,9 +1,13 @@
 import React from 'react'
 
 const App = () => {
+  const handleClick = () => {
+    console.log('Button was clicked!')
+  };
+
   return (
     <div>
-      Show Animal List Here!
+      <button onClick={handleClick}>Add Animal</button>
     </div>
   )
 }
