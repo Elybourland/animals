@@ -1,11 +1,10 @@
 import React from 'react';
 
-const AnimalShow = () => {
+const AnimalShow = ({ type }) => {
   
-
   return (
     <div>
-      AnimalShow
+      {type}
     </div>
   )
 }
